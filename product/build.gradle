@@ -1,0 +1,9 @@
+apply plugin: 'spring-boot'
+
+dependencies {
+	compile "com.paradigma:arquitecture:0.0.17-SNAPSHOT"
+	compile('org.springframework.cloud:spring-cloud-starter')
+	compile('org.springframework.cloud:spring-cloud-starter-eureka-server')
+	compile project(':shared')
+	compile project(':user')
+}

@@ -1,0 +1,2 @@
+
+include "user", "product", "shared", "agregation", "eureka"
