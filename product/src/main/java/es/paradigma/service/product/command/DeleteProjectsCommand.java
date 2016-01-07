@@ -14,7 +14,8 @@ public class DeleteProjectsCommand extends EventCommand<UserDeleteEvent>{
 	@Override
 	protected void execute() {
 		String userId = this.event.getSource().getData().getSource().getData();
-		ProductRepository productRepository =StaticApplicationContextAccess.getApplicationContext().getBean(ProductRepository.class);
+		ProductRepository productRepository =StaticApplicationContextAccess.
+				getApplicationContext().getBean(ProductRepository.class);
 		
 		productRepository.deleteByUserId(userId);
 

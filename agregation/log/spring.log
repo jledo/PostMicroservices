@@ -10861,3 +10861,720 @@ java.net.SocketTimeoutException: Read timed out
 2016-01-07 00:47:57.656  INFO 19232 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
 2016-01-07 00:48:20.311  INFO 19232 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
 2016-01-07 00:48:28.888  INFO 19232 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:44:38.939  INFO 19008 --- [main] e.p.s.agregation.AgregationApplication   : No active profile set, falling back to default profiles: default
+2016-01-07 18:44:39.034  INFO 19008 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41394595: startup date [Thu Jan 07 18:44:39 CET 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5b1669c0
+2016-01-07 18:44:42.057  INFO 19008 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'userDetailsService' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.paradigma.arquitecture.configuration.security.AccessTokenSecurityConfig; factoryMethodName=userDetailsService; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/paradigma/arquitecture/configuration/security/AccessTokenSecurityConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=com.paradigma.arquitecture.provider.configure.MongoProviderConfig; factoryMethodName=userDetailsService; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/paradigma/arquitecture/provider/configure/MongoProviderConfig.class]]
+2016-01-07 18:44:42.221  INFO 19008 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-01-07 18:44:43.592  INFO 19008 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6b80b8e7-5028-3d44-913c-4c36c1c021e9
+2016-01-07 18:44:43.615  INFO 19008 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-01-07 18:44:43.761  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.paradigma.arquitecture.configuration.WebSocketConfig' of type [class com.paradigma.arquitecture.configuration.WebSocketConfig$$EnhancerBySpringCGLIB$$a4cb0b2c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:43.782  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [class org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration$$EnhancerBySpringCGLIB$$af69423e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:43.839  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.jackson.CONFIGURATION_PROPERTIES' of type [class org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:43.842  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [class org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration$$EnhancerBySpringCGLIB$$ec3bb537] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:43.862  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [class org.springframework.data.web.config.SpringDataJacksonConfiguration$$EnhancerBySpringCGLIB$$636eea21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:43.936  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'jacksonGeoModule' of type [class org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:43.943  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.data.mongodb.core.GeoJsonConfiguration' of type [class org.springframework.data.mongodb.core.GeoJsonConfiguration$$EnhancerBySpringCGLIB$$aa2031c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:43.976  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'geoJsonModule' of type [class org.springframework.data.mongodb.core.geo.GeoJsonModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.031  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'jacksonObjectMapperBuilder' of type [class org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.081  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'jacksonObjectMapper' of type [class com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.082  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.websocket.WebSocketMessagingAutoConfiguration$WebSocketMessageConverterConfiguration' of type [class org.springframework.boot.autoconfigure.websocket.WebSocketMessagingAutoConfiguration$WebSocketMessageConverterConfiguration$$EnhancerBySpringCGLIB$$88d3f315] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.098  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.web.socket.config.annotation.DelegatingWebSocketMessageBrokerConfiguration' of type [class org.springframework.web.socket.config.annotation.DelegatingWebSocketMessageBrokerConfiguration$$EnhancerBySpringCGLIB$$a198340] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.135  INFO 19008 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientInboundChannelExecutor'
+2016-01-07 18:44:44.135  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'clientInboundChannelExecutor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.137  INFO 19008 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientOutboundChannelExecutor'
+2016-01-07 18:44:44.137  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'clientOutboundChannelExecutor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.154  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'clientInboundChannel' of type [class org.springframework.messaging.support.ExecutorSubscribableChannel] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.155  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'clientOutboundChannel' of type [class org.springframework.messaging.support.ExecutorSubscribableChannel] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.159  INFO 19008 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'brokerChannelExecutor'
+2016-01-07 18:44:44.161  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'brokerChannelExecutor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.177  INFO 19008 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'messageBrokerTaskScheduler'
+2016-01-07 18:44:44.180  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'messageBrokerTaskScheduler' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.195  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.paradigma.arquitecture.configuration.CommanderConfig' of type [class com.paradigma.arquitecture.configuration.CommanderConfig$$EnhancerBySpringCGLIB$$b42cabd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.200  INFO 19008 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'getTaskExecutor'
+2016-01-07 18:44:44.202  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'getTaskExecutor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.270  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$3f61f13b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.314  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$9d582b2b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.349  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [class org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$5f1ba9c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.369  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [class org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.375  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@49754e74' of type [class org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.387  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [class org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$11f9de39] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.408  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [class org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.510  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e9d3c82a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:44.536  INFO 19008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration$$EnhancerBySpringCGLIB$$1cb1c360] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-07 18:44:45.269  INFO 19008 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-01-07 18:44:45.297  INFO 19008 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-01-07 18:44:45.299  INFO 19008 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-01-07 18:44:45.639  INFO 19008 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-01-07 18:44:45.641  INFO 19008 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6607 ms
+2016-01-07 18:44:46.793  INFO 19008 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'metricFilter' to: [/*]
+2016-01-07 18:44:46.812  INFO 19008 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-01-07 18:44:46.814  INFO 19008 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-01-07 18:44:46.817  INFO 19008 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-01-07 18:44:46.820  INFO 19008 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-01-07 18:44:46.825  INFO 19008 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-01-07 18:44:46.827  INFO 19008 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2016-01-07 18:44:46.829  INFO 19008 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2016-01-07 18:44:46.832  INFO 19008 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-01-07 18:44:50.786  INFO 19008 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2016-01-07 18:44:50.929  INFO 19008 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [com.paradigma.arquitecture.auth.accesstoken.StatelessAuthenticationFilter@13c42a10, com.paradigma.arquitecture.auth.accesstoken.StatelessLoginFilter@7de12866, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24289172, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3bc5aca7, org.springframework.security.web.session.SessionManagementFilter@7633348e, org.springframework.security.web.access.ExceptionTranslationFilter@29d987bc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@65516345]
+2016-01-07 18:44:51.057  INFO 19008 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration$LazyEndpointPathRequestMatcher@723bdbc1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bf8f733, org.springframework.security.web.context.SecurityContextPersistenceFilter@3afb972a, org.springframework.security.web.header.HeaderWriterFilter@48fe5e5d, org.springframework.security.web.authentication.logout.LogoutFilter@18099109, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5d4d042a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6247e150, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f362745, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25a75b27, org.springframework.security.web.session.SessionManagementFilter@7a730374, org.springframework.security.web.access.ExceptionTranslationFilter@5517faf3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40ed30ed]
+2016-01-07 18:44:52.414  INFO 19008 --- [main] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/websocket/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2016-01-07 18:44:55.783  INFO 19008 --- [main] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:44:56.271  INFO 19008 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41394595: startup date [Thu Jan 07 18:44:39 CET 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5b1669c0
+2016-01-07 18:44:56.508  INFO 19008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/user/{id}],methods=[GET]}" onto public java.util.LinkedHashMap es.paradigma.service.agregation.controller.AgregationController.findById(java.lang.String,java.lang.String)
+2016-01-07 18:44:56.517  INFO 19008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-01-07 18:44:56.522  INFO 19008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-01-07 18:44:56.685  INFO 19008 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-01-07 18:44:56.687  INFO 19008 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-01-07 18:44:56.885  INFO 19008 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-01-07 18:44:59.933  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2016-01-07 18:44:59.934  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-01-07 18:44:59.935  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-01-07 18:44:59.935  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-01-07 18:44:59.939  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2016-01-07 18:44:59.939  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-01-07 18:44:59.941  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2016-01-07 18:44:59.943  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2016-01-07 18:44:59.951  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2016-01-07 18:44:59.952  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-01-07 18:44:59.954  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-01-07 18:44:59.954  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-01-07 18:44:59.955  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-01-07 18:44:59.957  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2016-01-07 18:44:59.958  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2016-01-07 18:44:59.960  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2016-01-07 18:44:59.960  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-01-07 18:44:59.961  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2016-01-07 18:44:59.961  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2016-01-07 18:44:59.962  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-01-07 18:44:59.963  INFO 19008 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-01-07 18:45:00.361  INFO 19008 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41394595: startup date [Thu Jan 07 18:44:39 CET 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5b1669c0] and template loader path [classpath:/templates/]
+2016-01-07 18:45:00.364  INFO 19008 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2016-01-07 18:45:00.492  WARN 19008 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2016-01-07 18:45:00.493  INFO 19008 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2016-01-07 18:45:00.771  WARN 19008 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2016-01-07 18:45:00.772  INFO 19008 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2016-01-07 18:45:01.607  INFO 19008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-01-07 18:45:01.632  INFO 19008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2016-01-07 18:45:01.633  INFO 19008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2016-01-07 18:45:01.637  INFO 19008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2016-01-07 18:45:01.639  INFO 19008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2016-01-07 18:45:01.641  INFO 19008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2016-01-07 18:45:01.645  INFO 19008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2016-01-07 18:45:01.669  INFO 19008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2016-01-07 18:45:01.690  INFO 19008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2016-01-07 18:45:01.730  INFO 19008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=41394595,type=ConfigurationPropertiesRebinder]
+2016-01-07 18:45:01.742  INFO 19008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2016-01-07 18:45:02.116  INFO 19008 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2016-01-07 18:45:02.133  INFO 19008 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2016-01-07 18:45:06.994  INFO 19008 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using encoding codec LegacyJacksonJson
+2016-01-07 18:45:06.996  INFO 19008 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using decoding codec LegacyJacksonJson
+2016-01-07 18:45:08.600  INFO 19008 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using encoding codec LegacyJacksonJson
+2016-01-07 18:45:08.600  INFO 19008 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using decoding codec LegacyJacksonJson
+2016-01-07 18:45:08.936  INFO 19008 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2016-01-07 18:45:08.936  INFO 19008 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2016-01-07 18:45:08.937  INFO 19008 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2016-01-07 18:45:08.938  INFO 19008 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2016-01-07 18:45:08.938  INFO 19008 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2016-01-07 18:45:08.938  INFO 19008 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2016-01-07 18:45:08.939  INFO 19008 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2016-01-07 18:45:09.436  INFO 19008 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2016-01-07 18:45:09.445  INFO 19008 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2016-01-07 18:45:09.453  INFO 19008 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2016-01-07 18:45:09.568  INFO 19008 --- [main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application agregationService with eureka with status UP
+2016-01-07 18:45:09.571  INFO 19008 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [current=UP, previous=STARTING]
+2016-01-07 18:45:09.711  INFO 19008 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2016-01-07 18:45:09.712  INFO 19008 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2016-01-07 18:45:09.712  INFO 19008 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2016-01-07 18:45:09.713  INFO 19008 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2016-01-07 18:45:10.934  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:45:10.939  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGREGATIONSERVICE/localhost:agregationService:8080: registering service...
+2016-01-07 18:45:11.138  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGREGATIONSERVICE/localhost:agregationService:8080 - registration status: 204
+2016-01-07 18:45:12.262  INFO 19008 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: SimpleConnection@5624daaa [delegate=amqp://guest@192.168.32.167:5672/]
+2016-01-07 18:45:12.266  INFO 19008 --- [SimpleAsyncTaskExecutor-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (arquitectureQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2016-01-07 18:45:12.912  INFO 19008 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-01-07 18:45:12.916  INFO 19008 --- [main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 8080
+2016-01-07 18:45:12.922  INFO 19008 --- [main] e.p.s.agregation.AgregationApplication   : Started AgregationApplication in 37.893 seconds (JVM running for 38.689)
+2016-01-07 18:45:42.263  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:45:50.582  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:45:52.474  INFO 19008 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannelpool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2016-01-07 18:46:13.379  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:46:21.664  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:46:44.504  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:46:52.764  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:47:15.615  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:47:23.879  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:47:46.714  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:47:54.994  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:48:17.792  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:48:26.117  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:48:48.879  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:48:57.226  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:49:19.973  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:49:28.342  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:49:51.072  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:49:59.444  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:50:22.197  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:50:30.546  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:50:53.314  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:51:01.698  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:51:24.411  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:51:32.783  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:51:55.558  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:52:03.897  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:52:26.652  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:52:35.016  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:52:57.738  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:53:06.099  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:53:28.838  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:53:37.191  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:53:59.930  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:54:08.283  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:54:31.018  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:54:39.380  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:55:02.111  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:55:10.477  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:55:33.221  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:55:41.565  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:56:04.313  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:56:12.656  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:56:35.410  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:56:43.735  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:57:06.486  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:57:14.847  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:57:37.723  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:57:45.934  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:58:08.846  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:58:17.022  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:58:39.958  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:58:48.114  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:59:11.046  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:59:19.204  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:59:42.140  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 18:59:50.299  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:00:13.227  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:00:21.388  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:00:44.346  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:00:52.519  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:01:15.436  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:01:23.616  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:01:46.525  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:01:54.730  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:02:17.604  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:02:25.809  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:02:48.711  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:02:56.916  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:03:19.807  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:03:28.017  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:03:50.923  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:03:59.114  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:04:22.019  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:04:30.215  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:04:53.103  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:05:01.314  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:05:24.190  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:05:32.417  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:05:55.280  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:06:03.536  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:06:26.375  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:06:34.654  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:06:57.469  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:07:05.756  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:07:28.563  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:07:36.848  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:07:59.662  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:08:07.937  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:08:30.773  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:08:39.026  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:09:01.876  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:09:10.101  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:09:32.973  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:09:41.207  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:10:04.068  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:10:12.293  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:10:35.177  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:10:43.386  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:11:06.267  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:11:14.484  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:11:37.347  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:11:45.577  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:12:08.427  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:12:16.674  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:12:39.530  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:12:47.779  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:13:10.620  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:13:18.879  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:13:41.716  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:13:49.994  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:14:12.808  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:14:21.080  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:14:43.912  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:14:52.186  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:15:14.999  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:15:23.265  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:15:46.095  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:15:52.476  INFO 19008 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannelpool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+2016-01-07 19:15:54.369  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:16:17.173  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:16:25.475  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:16:48.289  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:16:56.560  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:17:19.378  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:17:27.656  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:17:50.469  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:17:58.784  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:18:21.560  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:18:29.870  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:18:52.652  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:19:00.951  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:19:23.737  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:19:32.054  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:19:54.837  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:20:03.160  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:20:25.922  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:20:34.264  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:20:57.015  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:21:05.373  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:21:28.106  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:21:36.474  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:21:59.199  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:22:07.580  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:22:30.280  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:22:38.702  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:23:01.376  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:23:09.785  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:23:32.483  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:23:40.918  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:24:03.579  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:24:12.012  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:24:34.684  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:24:43.095  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:25:05.798  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:25:14.217  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:25:36.883  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:25:45.341  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:26:07.963  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:26:16.452  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:26:39.047  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:26:47.530  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:27:10.140  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:27:18.617  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:27:41.268  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:27:49.696  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:28:12.351  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:28:20.791  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:28:43.435  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:28:51.900  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:29:14.719  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:29:22.993  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:29:45.845  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:29:54.088  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:30:16.936  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:30:25.216  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:30:48.033  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:30:56.295  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:31:19.120  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:31:27.395  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:31:50.234  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:31:58.472  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:32:21.328  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:32:29.597  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:32:52.794  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:33:00.747  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:33:23.943  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:33:31.909  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:33:55.041  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:34:03.016  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:34:26.208  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:34:34.184  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:34:57.338  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:35:05.310  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:35:28.553  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:35:36.422  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:35:59.676  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:36:07.523  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:36:30.791  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:36:38.644  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:37:01.905  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:37:09.727  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:37:32.999  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:37:40.812  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:38:04.122  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:38:11.967  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:38:35.242  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:38:43.093  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:39:06.344  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:39:14.200  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:39:37.431  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:39:45.287  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:40:08.575  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:40:16.394  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:40:39.683  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:40:48.200  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:41:10.883  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:41:19.307  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:41:42.001  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:41:50.424  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:42:13.099  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:42:21.524  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:42:44.231  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:42:52.636  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:43:15.358  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:43:23.769  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:43:46.456  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:43:54.957  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:44:17.548  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:44:26.235  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:44:48.744  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:44:57.405  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:45:19.865  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:45:28.530  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:45:51.010  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:45:52.474  INFO 19008 --- [MessageBroker-2] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannelpool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 3, active threads = 1, queued tasks = 0, completed tasks = 2]
+2016-01-07 19:45:59.641  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:46:22.112  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:46:30.749  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:46:53.192  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:47:01.839  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:47:24.286  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:47:32.964  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:47:55.412  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:48:04.047  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:48:26.491  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:48:35.135  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:48:57.569  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:49:06.229  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:49:28.647  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:49:37.312  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:49:59.730  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:50:08.415  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:50:30.832  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:50:39.492  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:51:01.950  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:51:10.598  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:51:33.042  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:51:41.720  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:52:04.129  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:52:12.824  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:52:35.229  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:52:43.908  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:53:06.315  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:53:15.005  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:53:37.404  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:53:46.089  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:54:08.540  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:54:17.195  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:54:39.662  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:54:48.294  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:55:10.745  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:55:19.412  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:55:41.830  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:55:50.505  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:56:12.937  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:56:21.600  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:56:44.029  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:56:52.678  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:57:15.125  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:57:23.766  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:57:46.201  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:57:54.879  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:58:17.282  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:58:25.957  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:58:48.378  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:58:57.039  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:59:19.477  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:59:28.138  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:59:50.566  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 19:59:59.248  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:00:21.645  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:00:30.359  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:00:52.746  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:01:01.466  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:01:23.896  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:01:32.548  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:01:54.995  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:02:03.640  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:02:26.080  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:02:34.720  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:02:57.168  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:03:05.846  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:03:28.273  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:03:36.943  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:03:59.403  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:04:08.033  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:04:30.492  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:04:39.147  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:05:01.584  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:05:10.228  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:05:32.685  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:05:41.366  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:06:03.769  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:06:12.449  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:06:34.845  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:06:43.547  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:07:05.945  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:07:14.627  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:07:37.027  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:07:45.735  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:08:08.108  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:08:16.814  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:08:39.193  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:08:47.906  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:09:10.284  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:09:19.016  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:09:41.421  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:09:50.094  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:10:12.510  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:10:21.187  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:10:43.587  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:10:52.273  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:11:14.666  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:11:23.369  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:11:45.748  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:11:54.462  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:12:16.871  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:12:25.561  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:12:47.956  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:12:56.638  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:13:19.035  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:13:27.721  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:13:50.114  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:13:58.844  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:14:21.200  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:14:29.927  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:14:52.318  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:15:01.008  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:15:23.405  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:15:32.103  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:15:52.474  INFO 19008 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannelpool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 0, completed tasks = 3]
+2016-01-07 20:15:54.487  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:16:03.179  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:16:25.575  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:16:34.276  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:16:56.690  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:17:05.362  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:17:27.809  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:17:36.470  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:17:58.900  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:18:07.561  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:18:29.983  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:18:38.655  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 20:19:00.181  WARN 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.appinfo.ApplicationInfoManager       : The public hostname changed from : localhost => javier-PC
+2016-01-07 20:19:00.182  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGREGATIONSERVICE/localhost:agregationService:8080: registering service...
+2016-01-07 20:19:00.200  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGREGATIONSERVICE/localhost:agregationService:8080 - registration status: 204
+2016-01-07 21:09:04.260 ERROR 19008 --- [AMQP Connection 192.168.32.167:5672] o.s.a.r.c.CachingConnectionFactory       : Channel shutdown: connection error
+2016-01-07 21:09:04.468  WARN 19008 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it
+
+com.rabbitmq.client.ShutdownSignalException: connection error
+	at com.rabbitmq.client.impl.AMQConnection.startShutdown(AMQConnection.java:723) ~[amqp-client-3.5.6.jar:na]
+	at com.rabbitmq.client.impl.AMQConnection.shutdown(AMQConnection.java:713) ~[amqp-client-3.5.6.jar:na]
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:571) ~[amqp-client-3.5.6.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_65]
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source) ~[na:1.8.0_65]
+	at java.net.SocketInputStream.read(Unknown Source) ~[na:1.8.0_65]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[na:1.8.0_65]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[na:1.8.0_65]
+	at java.io.DataInputStream.readUnsignedByte(Unknown Source) ~[na:1.8.0_65]
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:95) ~[amqp-client-3.5.6.jar:na]
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:139) ~[amqp-client-3.5.6.jar:na]
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:536) ~[amqp-client-3.5.6.jar:na]
+	... 1 common frames omitted
+
+2016-01-07 21:09:04.477  INFO 19008 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer: tags=[{amq.ctag-TVwyTl07GPOTg6KymXqgvQ=arquitectureQueue}], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@192.168.32.167:5672/,1), acknowledgeMode=AUTO local queue size=0
+2016-01-07 21:09:06.746 ERROR 19008 --- [SimpleAsyncTaskExecutor-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpIOException: java.net.UnknownHostException: docker-1
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:67) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:273) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:500) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createBareChannel(CachingConnectionFactory.java:446) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.getCachedChannelProxy(CachingConnectionFactory.java:419) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.getChannel(CachingConnectionFactory.java:412) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.access$1200(CachingConnectionFactory.java:86) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$ChannelCachingConnectionProxy.createChannel(CachingConnectionFactory.java:838) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils$1.createChannel(ConnectionFactoryUtils.java:90) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.doGetTransactionalResourceHolder(ConnectionFactoryUtils.java:139) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:71) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1278) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1271) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1247) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:272) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.redeclareElementsIfNecessary(SimpleMessageListenerContainer.java:1035) [spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$400(SimpleMessageListenerContainer.java:93) [spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1163) [spring-rabbit-1.5.2.RELEASE.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_65]
+Caused by: java.net.UnknownHostException: docker-1
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_65]
+	at com.rabbitmq.client.impl.FrameHandlerFactory.create(FrameHandlerFactory.java:32) ~[amqp-client-3.5.6.jar:na]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:646) ~[amqp-client-3.5.6.jar:na]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:260) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	... 17 common frames omitted
+
+2016-01-07 21:09:11.535  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:09:11.536  WARN 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.appinfo.ApplicationInfoManager       : The public hostname changed from : javier-PC => localhost
+2016-01-07 21:09:11.536  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGREGATIONSERVICE/localhost:agregationService:8080: registering service...
+2016-01-07 21:09:11.545  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AGREGATIONSERVICE/localhost:agregationService:8080 - registration status: 204
+2016-01-07 21:09:11.861  WARN 19008 --- [SimpleAsyncTaskExecutor-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it
+
+org.springframework.amqp.AmqpIOException: java.net.UnknownHostException: docker-1
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:67) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:273) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:500) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils$1.createConnection(ConnectionFactoryUtils.java:85) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.doGetTransactionalResourceHolder(ConnectionFactoryUtils.java:135) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:71) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:456) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1165) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_65]
+Caused by: java.net.UnknownHostException: docker-1
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_65]
+	at com.rabbitmq.client.impl.FrameHandlerFactory.create(FrameHandlerFactory.java:32) ~[amqp-client-3.5.6.jar:na]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:646) ~[amqp-client-3.5.6.jar:na]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:260) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	... 7 common frames omitted
+
+2016-01-07 21:09:11.862  INFO 19008 --- [SimpleAsyncTaskExecutor-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2016-01-07 21:09:11.864 ERROR 19008 --- [SimpleAsyncTaskExecutor-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpIOException: java.net.UnknownHostException: docker-1
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:67) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:273) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:500) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils$1.createConnection(ConnectionFactoryUtils.java:85) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.doGetTransactionalResourceHolder(ConnectionFactoryUtils.java:135) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:71) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1278) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1271) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1247) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:272) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.redeclareElementsIfNecessary(SimpleMessageListenerContainer.java:1035) [spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$400(SimpleMessageListenerContainer.java:93) [spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1163) [spring-rabbit-1.5.2.RELEASE.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_65]
+Caused by: java.net.UnknownHostException: docker-1
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_65]
+	at com.rabbitmq.client.impl.FrameHandlerFactory.create(FrameHandlerFactory.java:32) ~[amqp-client-3.5.6.jar:na]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:646) ~[amqp-client-3.5.6.jar:na]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:260) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	... 12 common frames omitted
+
+2016-01-07 21:09:12.745  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:09:17.038  WARN 19008 --- [SimpleAsyncTaskExecutor-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it
+
+org.springframework.amqp.AmqpIOException: java.net.UnknownHostException: docker-1
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:67) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:273) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:500) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils$1.createConnection(ConnectionFactoryUtils.java:85) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.doGetTransactionalResourceHolder(ConnectionFactoryUtils.java:135) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:71) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:456) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1165) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_65]
+Caused by: java.net.UnknownHostException: docker-1
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_65]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_65]
+	at com.rabbitmq.client.impl.FrameHandlerFactory.create(FrameHandlerFactory.java:32) ~[amqp-client-3.5.6.jar:na]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:646) ~[amqp-client-3.5.6.jar:na]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:260) ~[spring-rabbit-1.5.2.RELEASE.jar:na]
+	... 7 common frames omitted
+
+2016-01-07 21:09:17.041  INFO 19008 --- [SimpleAsyncTaskExecutor-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2016-01-07 21:09:19.767  INFO 19008 --- [SimpleAsyncTaskExecutor-4] o.s.a.r.c.CachingConnectionFactory       : Created new connection: SimpleConnection@d52f7da [delegate=amqp://guest@192.168.32.167:5672/]
+2016-01-07 21:09:19.768  INFO 19008 --- [SimpleAsyncTaskExecutor-4] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (arquitectureQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2016-01-07 21:09:42.679  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:09:44.010  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:10:13.842  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:10:15.111  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:10:44.933  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:10:46.209  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:11:16.030  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:11:17.316  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:11:47.151  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:11:48.411  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:12:18.255  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:12:19.520  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:12:49.362  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:12:50.629  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:13:20.470  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:13:21.725  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:13:51.570  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:13:52.833  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:14:22.659  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:14:23.952  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:14:53.768  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:14:55.044  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:15:24.866  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:15:26.182  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:15:55.955  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:15:57.302  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:16:27.043  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:16:28.399  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:16:58.141  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:16:59.477  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:17:29.244  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:17:30.583  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:18:00.331  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:18:01.718  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:18:31.445  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:18:32.833  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:19:02.525  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:19:03.952  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:19:33.651  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:19:35.065  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:20:04.778  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:20:06.167  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:20:35.908  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:20:37.270  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:21:07.003  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:21:08.369  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:21:38.118  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:21:39.456  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:22:09.220  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:22:10.546  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:22:40.429  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:22:41.644  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:23:11.508  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:23:12.745  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:23:42.591  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:23:43.839  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:24:13.674  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:24:14.934  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:24:44.769  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:24:46.051  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:25:15.879  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:25:17.145  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:25:46.998  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:25:48.274  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:26:18.088  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:26:19.359  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:26:49.192  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:26:50.470  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:27:20.287  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:27:21.552  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:27:51.389  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:27:52.660  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:28:22.474  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:28:23.764  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:28:53.577  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:28:54.845  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:29:24.681  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:29:25.934  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:29:55.778  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:29:57.034  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:30:26.885  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:30:28.136  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:30:57.974  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname
+2016-01-07 21:30:59.243  INFO 19008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.springframework.cloud.util.InetUtils   : Cannot determine local hostname

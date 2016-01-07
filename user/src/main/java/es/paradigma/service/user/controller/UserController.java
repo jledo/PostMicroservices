@@ -19,9 +19,7 @@ import es.paradigma.shared.event.UserDeleteEvent;
 @RestController
 @RequestMapping("/api/v1/user")
 public class UserController {
-	
-	@Autowired
-	private EventBus eventBus;
+
 	
 	@Autowired
 	private UserService userService;
@@ -40,11 +38,15 @@ public class UserController {
 		return this.userService.findById(id);
 	}
 	
+	
+	@Autowired
+	private EventBus eventBus;
+	
 	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
 	@PreAuthorize("@permissions.allow(#id, 'user', 'delete')")
 	public void delete(String id) {
 		this.userService.deleteById(id);
-		eventBus.publishEvent(new UserDeleteEvent("1"));
+		eventBus.publishEvent(new UserDeleteEvent(id));
 	}
 
 }

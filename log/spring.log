@@ -1,0 +1,2 @@
+2016-01-07 17:52:56.704  INFO 19088 --- [main] e.p.service.product.ProductApplication   : No active profile set, falling back to default profiles: default
+2016-01-07 17:52:56.756  INFO 19088 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d99c28d: startup date [Thu Jan 07 17:52:56 CET 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@305b910c
