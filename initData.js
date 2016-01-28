@@ -1,3 +1,13 @@
+use arquitecture;
+
+db.createUser(
+   {
+     user: "arquitectureapp",
+     pwd: "arquitectureapp",
+     roles: [ "readWrite", "dbAdmin" ]
+   }
+)
+
 var user = {"_id" : "11",
 	    "username" : "Javier",
 	    "password" : "$2a$10$Hapocgd6APJAu5Aq8YlN1e986xkJwfZ1u062G8Lo9KYWzawzMMJV.",
