@@ -1,3 +1,4 @@
+db.dropUser("arquitectureapp");
 
 db.createUser(
    {
