@@ -1,4 +1,3 @@
-use arquitecture;
 
 db.createUser(
    {
@@ -6,7 +5,7 @@ db.createUser(
      pwd: "arquitectureapp",
      roles: [ "readWrite", "dbAdmin" ]
    }
-)
+);
 
 var user = {"_id" : "11",
 	    "username" : "Javier",
@@ -53,6 +52,6 @@ var user = {"_id" : "11",
 	                }
 	    	 ]
 	    } ]
-}
+};
 
 db.user.insert(user);
