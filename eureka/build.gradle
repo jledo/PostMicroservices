@@ -1,5 +1,0 @@
-apply plugin: 'spring-boot'
-
-dependencies {
-	compile('org.springframework.cloud:spring-cloud-starter-eureka-server')
-}

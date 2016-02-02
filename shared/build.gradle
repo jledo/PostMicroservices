@@ -1,5 +1,2 @@
 apply plugin: 'spring-boot'
 
-dependencies {
-	compile "com.paradigma:arquitecture:0.0.12-SNAPSHOT"
-}

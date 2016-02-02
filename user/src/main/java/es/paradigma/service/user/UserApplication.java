@@ -30,8 +30,6 @@ public class UserApplication {
 	}
 	
 	public static void main(String[] args) {
-		SpringApplication app = new SpringApplication(UserApplication.class);
-		app.addListeners(new ApplicationPidFileWriter());
-		app.run(args);
+		SpringApplication.run(UserApplication.class,args);
 	}
 }

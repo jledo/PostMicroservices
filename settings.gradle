@@ -1,2 +1,2 @@
 
-include "user", "product", "shared", "agregation", "eureka"
+include "user", "product", "shared", "agregation"

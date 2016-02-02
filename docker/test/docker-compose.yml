@@ -1,0 +1,14 @@
+test:
+  image: java:openjdk-8u45-jdk
+  working_dir: /app
+  volumes:
+    - ../../:/app
+  ports:
+    - "8082:8082"
+  external_links:
+    - rabbitmq
+    - mongodb
+    - eureka
+  environment:
+    SPRING_PROFILES_ACTIVE: docker
+  command: bash -c  "mkdir /arq; cd /arq;  git clone https://git.paradigmadigital.com/git/ArquitecturaMicroServiciosSprinBoot.git . ; chmod +x gradlew; ./gradlew install;  cd /app; ./gradlew test "
