@@ -54,4 +54,45 @@ var user = {"_id" : "11",
 	    } ]
 };
 
+var user1 = {
+		"_id": "1",
+		"name": "Usuario1"
+}
+
+var user2 = {
+		"_id": "2",
+		"name": "Usuario2"
+}
+
+var user5 = {
+		"_id": "5",
+		"name": "Usuario3"
+}
+
+db.user.insert(user1);
+db.user.insert(user2);
+db.user.insert(user5);
 db.user.insert(user);
+
+
+var product1 = {
+		"_id": "1",
+		"userId": "1",
+		"name": "producto1"
+}
+
+var product2 = {
+		"_id": "2",
+		"userId": "1",
+		"name": "producto2"
+}
+
+var product5 = {
+		"_id": "5",
+		"userId": "1",
+		"name": "producto5"
+}
+
+db.product.insert(product1);
+db.product.insert(product2);
+db.product.insert(product5);
