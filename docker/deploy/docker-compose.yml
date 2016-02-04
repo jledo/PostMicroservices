@@ -1,32 +1,11 @@
-eureka:
-  image: springcloud/eureka
-  ports:
-    - "8761:8761"
-  expose:
-    - "8761"
-rabbitmq:
-  image: rabbitmq:3.5.3
-  ports:
-    - "5672:5672"
-    - "15672:15672"
-  expose:
-    - "5672"
-mongodb:
-  image: mongo:2.6.11
-  ports:
-    - "27017:27017"
-  expose:
-    - "27017"
-  command: bash -c  " set -o monitor ; curl -o initData.js https://raw.githubusercontent.com/jledo/PostMicroservices/master/initData.js ; mongod --smallfiles & sleep 5; mongo localhost:27017/arquitecture initData.js; fg" 
-
 user:
   image: java:openjdk-8u45-jdk
   working_dir: /app
   volumes:
     - ../../user/build/libs:/app
   ports:
-    - "8082:8082"
-  links:
+    - "8082"
+  external_links:
     - rabbitmq
     - mongodb
     - eureka
@@ -40,8 +19,8 @@ product:
   volumes:
     - ../../product/build/libs:/app
   ports:
-    - "8083:8083"
-  links:
+    - "8083"
+  external_links:
     - rabbitmq
     - mongodb
     - eureka
@@ -57,11 +36,12 @@ agregation:
   ports:
     - "8080:8080"
   links:
+    - user
+    - product
+  external_links:
     - rabbitmq
     - mongodb
     - eureka
-    - user
-    - product
   environment:
     SPRING_PROFILES_ACTIVE: docker
   command: java -jar /app/agregation.jar 
