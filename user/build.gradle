@@ -1,3 +1,5 @@
+
+
 apply plugin: 'spring-boot'
 
 dependencies {
@@ -6,4 +8,3 @@ dependencies {
 	compile project(':shared')
 	compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
 }
-

@@ -2097,3 +2097,326 @@ java.lang.RuntimeException: Bad status: 404
 2016-02-02 17:18:03.707  INFO 1 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'brokerChannelExecutor'
 2016-02-02 17:18:03.708  INFO 1 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'getTaskExecutor'
 2016-02-02 17:18:03.708  INFO 1 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'clientInboundChannelExecutor'
+2016-02-09 17:51:03.482  INFO 1 --- [main] e.p.service.product.ProductApplication   : The following profiles are active: docker
+2016-02-09 17:51:04.013  INFO 1 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@117f47c0: startup date [Tue Feb 09 17:51:04 UTC 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7026a94b
+2016-02-09 17:51:34.658  INFO 1 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'userDetailsService' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.paradigma.arquitecture.configuration.security.AccessTokenSecurityConfig; factoryMethodName=userDetailsService; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/paradigma/arquitecture/configuration/security/AccessTokenSecurityConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=com.paradigma.arquitecture.provider.configure.MongoProviderConfig; factoryMethodName=userDetailsService; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/paradigma/arquitecture/provider/configure/MongoProviderConfig.class]]
+2016-02-09 17:51:35.852  INFO 1 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-02-09 17:51:43.237  INFO 1 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=02199324-3753-3ec1-b8d3-513eac46f4d0
+2016-02-09 17:51:43.284  INFO 1 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-02-09 17:51:44.185  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.paradigma.arquitecture.configuration.WebSocketConfig' of type [class com.paradigma.arquitecture.configuration.WebSocketConfig$$EnhancerBySpringCGLIB$$84dba6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:44.301  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [class org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration$$EnhancerBySpringCGLIB$$b2312b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:44.723  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.jackson.CONFIGURATION_PROPERTIES' of type [class org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:44.731  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [class org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration$$EnhancerBySpringCGLIB$$47f585b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:44.821  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.data.mongodb.core.GeoJsonConfiguration' of type [class org.springframework.data.mongodb.core.GeoJsonConfiguration$$EnhancerBySpringCGLIB$$5da023f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:45.086  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'geoJsonModule' of type [class org.springframework.data.mongodb.core.geo.GeoJsonModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:45.107  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [class org.springframework.data.web.config.SpringDataJacksonConfiguration$$EnhancerBySpringCGLIB$$bf28ba9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:45.255  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'jacksonGeoModule' of type [class org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:45.284  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'jacksonObjectMapperBuilder' of type [class org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:45.571  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'jacksonObjectMapper' of type [class com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:45.590  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.websocket.WebSocketMessagingAutoConfiguration$WebSocketMessageConverterConfiguration' of type [class org.springframework.boot.autoconfigure.websocket.WebSocketMessagingAutoConfiguration$WebSocketMessageConverterConfiguration$$EnhancerBySpringCGLIB$$e48dc38f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:45.926  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.web.socket.config.annotation.DelegatingWebSocketMessageBrokerConfiguration' of type [class org.springframework.web.socket.config.annotation.DelegatingWebSocketMessageBrokerConfiguration$$EnhancerBySpringCGLIB$$65d353ba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:46.216  INFO 1 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientInboundChannelExecutor'
+2016-02-09 17:51:46.222  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'clientInboundChannelExecutor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:46.229  INFO 1 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientOutboundChannelExecutor'
+2016-02-09 17:51:46.240  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'clientOutboundChannelExecutor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:46.334  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'clientInboundChannel' of type [class org.springframework.messaging.support.ExecutorSubscribableChannel] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:46.387  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'clientOutboundChannel' of type [class org.springframework.messaging.support.ExecutorSubscribableChannel] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:46.424  INFO 1 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'brokerChannelExecutor'
+2016-02-09 17:51:46.429  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'brokerChannelExecutor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:46.523  INFO 1 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'messageBrokerTaskScheduler'
+2016-02-09 17:51:46.543  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'messageBrokerTaskScheduler' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:46.641  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.paradigma.arquitecture.configuration.CommanderConfig' of type [class com.paradigma.arquitecture.configuration.CommanderConfig$$EnhancerBySpringCGLIB$$66fc9b37] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:46.674  INFO 1 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'getTaskExecutor'
+2016-02-09 17:51:46.689  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'getTaskExecutor' of type [class org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:47.017  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$9b1bc1b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:47.499  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$f911fba5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:47.900  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [class org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$bad57a41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:48.123  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [class org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:48.213  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5f09b140' of type [class org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:48.292  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [class org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$6db3aeb3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:48.450  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [class org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:49.122  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$458d98a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:49.225  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration$$EnhancerBySpringCGLIB$$786b93da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-09 17:51:53.176  INFO 1 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8083 (http)
+2016-02-09 17:51:53.333  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-02-09 17:51:53.348  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-02-09 17:51:55.069  INFO 1 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-02-09 17:51:55.073  INFO 1 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 51060 ms
+2016-02-09 17:51:59.941  INFO 1 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'metricFilter' to: [/*]
+2016-02-09 17:51:59.959  INFO 1 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-02-09 17:51:59.967  INFO 1 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-02-09 17:51:59.982  INFO 1 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-02-09 17:51:59.984  INFO 1 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-02-09 17:52:00.016  INFO 1 --- [localhost-startStop-1] .e.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-02-09 17:52:00.017  INFO 1 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2016-02-09 17:52:00.023  INFO 1 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2016-02-09 17:52:00.023  INFO 1 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-02-09 17:52:00.850  INFO 1 --- [localhost-startStop-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [207] milliseconds.
+2016-02-09 17:52:19.372  INFO 1 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2016-02-09 17:52:20.204  INFO 1 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [com.paradigma.arquitecture.auth.accesstoken.StatelessAuthenticationFilter@6bd9594e, com.paradigma.arquitecture.auth.accesstoken.StatelessLoginFilter@2a17ef27, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4df4a072, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@df99c60, org.springframework.security.web.session.SessionManagementFilter@418b3a96, org.springframework.security.web.access.ExceptionTranslationFilter@53f503e5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55fc9aeb]
+2016-02-09 17:52:20.651  INFO 1 --- [localhost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration$LazyEndpointPathRequestMatcher@502af7f4, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@617d188f, org.springframework.security.web.context.SecurityContextPersistenceFilter@3514587b, org.springframework.security.web.header.HeaderWriterFilter@8d66b2a, org.springframework.security.web.authentication.logout.LogoutFilter@5396e5b6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5a3d7b6d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50cc3996, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a693289, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ca1af5f, org.springframework.security.web.session.SessionManagementFilter@27874fff, org.springframework.security.web.access.ExceptionTranslationFilter@231632f6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4622f0cf]
+2016-02-09 17:52:26.221  INFO 1 --- [main] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/websocket/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2016-02-09 17:52:33.942  INFO 1 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@117f47c0: startup date [Tue Feb 09 17:51:04 UTC 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7026a94b
+2016-02-09 17:52:36.012  INFO 1 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/product/search],methods=[GET]}" onto public java.util.List<es.paradigma.service.product.domain.Product> es.paradigma.service.product.controller.ProductController.findByParameters(java.util.Map<java.lang.String, java.lang.Object>)
+2016-02-09 17:52:36.054  INFO 1 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/product/{id}],methods=[GET]}" onto public es.paradigma.service.product.domain.Product es.paradigma.service.product.controller.ProductController.findById(java.lang.String)
+2016-02-09 17:52:36.071  INFO 1 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/v1/product],methods=[GET]}" onto public java.util.List<es.paradigma.service.product.domain.Product> es.paradigma.service.product.controller.ProductController.findAll()
+2016-02-09 17:52:36.109  INFO 1 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-02-09 17:52:36.150  INFO 1 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-02-09 17:52:37.281  INFO 1 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-09 17:52:37.303  INFO 1 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-09 17:52:38.206  INFO 1 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-09 17:52:49.002  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-09 17:52:49.045  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2016-02-09 17:52:49.077  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2016-02-09 17:52:49.088  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-09 17:52:49.104  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2016-02-09 17:52:49.169  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-09 17:52:49.196  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2016-02-09 17:52:49.206  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-09 17:52:49.267  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2016-02-09 17:52:49.282  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-09 17:52:49.317  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-09 17:52:49.346  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-09 17:52:49.378  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2016-02-09 17:52:49.380  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2016-02-09 17:52:49.395  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2016-02-09 17:52:49.397  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-09 17:52:49.403  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-09 17:52:49.433  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-09 17:52:49.438  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2016-02-09 17:52:49.453  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2016-02-09 17:52:49.471  INFO 1 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-09 17:52:53.828  INFO 1 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@117f47c0: startup date [Tue Feb 09 17:51:04 UTC 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7026a94b] and template loader path [classpath:/templates/]
+2016-02-09 17:52:53.872  INFO 1 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2016-02-09 17:52:56.919  WARN 1 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2016-02-09 17:52:56.923  INFO 1 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2016-02-09 17:52:57.294  WARN 1 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2016-02-09 17:52:57.299  INFO 1 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2016-02-09 17:52:58.764  INFO 1 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-02-09 17:52:59.015  INFO 1 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2016-02-09 17:52:59.021  INFO 1 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2016-02-09 17:52:59.043  INFO 1 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2016-02-09 17:52:59.054  INFO 1 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2016-02-09 17:52:59.085  INFO 1 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2016-02-09 17:52:59.140  INFO 1 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2016-02-09 17:52:59.420  INFO 1 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2016-02-09 17:52:59.549  INFO 1 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2016-02-09 17:52:59.677  INFO 1 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=117f47c0,type=ConfigurationPropertiesRebinder]
+2016-02-09 17:52:59.753  INFO 1 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2016-02-09 17:53:02.337  INFO 1 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2016-02-09 17:53:02.492  INFO 1 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2016-02-09 17:53:07.302  INFO 1 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using encoding codec LegacyJacksonJson
+2016-02-09 17:53:07.338  INFO 1 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using decoding codec LegacyJacksonJson
+2016-02-09 17:53:14.127  INFO 1 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using encoding codec LegacyJacksonJson
+2016-02-09 17:53:14.133  INFO 1 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using decoding codec LegacyJacksonJson
+2016-02-09 17:53:14.998  INFO 1 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2016-02-09 17:53:15.026  INFO 1 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2016-02-09 17:53:15.033  INFO 1 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2016-02-09 17:53:15.038  INFO 1 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2016-02-09 17:53:15.042  INFO 1 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2016-02-09 17:53:15.053  INFO 1 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2016-02-09 17:53:15.054  INFO 1 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2016-02-09 17:53:23.116  INFO 1 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2016-02-09 17:53:23.128  INFO 1 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2016-02-09 17:53:23.151  INFO 1 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2016-02-09 17:53:23.721  INFO 1 --- [main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application productService with eureka with status UP
+2016-02-09 17:53:23.740  INFO 1 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [current=UP, previous=STARTING]
+2016-02-09 17:53:23.797  INFO 1 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083: registering service...
+2016-02-09 17:53:25.044  INFO 1 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2016-02-09 17:53:25.142  INFO 1 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2016-02-09 17:53:25.167  INFO 1 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2016-02-09 17:53:25.203  INFO 1 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2016-02-09 17:53:26.572  INFO 1 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannelpool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2016-02-09 17:53:27.559  INFO 1 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - registration status: 204
+2016-02-09 17:53:27.765  INFO 1 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: SimpleConnection@4ea854b4 [delegate=amqp://guest@172.17.0.3:5672/]
+2016-02-09 17:53:27.780  INFO 1 --- [SimpleAsyncTaskExecutor-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (arquitectureQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2016-02-09 17:53:30.882  INFO 1 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8083 (http)
+2016-02-09 17:53:30.919  INFO 1 --- [main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 8083
+2016-02-09 17:53:31.059  INFO 1 --- [main] e.p.service.product.ProductApplication   : Started ProductApplication in 165.242 seconds (JVM running for 180.687)
+2016-02-09 17:53:53.134  INFO 1 --- [pool-7-thread-1] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2016-02-09 17:53:53.142  INFO 1 --- [pool-7-thread-1] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2016-02-09 17:53:53.162  INFO 1 --- [pool-7-thread-1] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2016-02-09 17:53:53.171  INFO 1 --- [pool-7-thread-1] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2016-02-09 17:53:53.173  INFO 1 --- [pool-7-thread-1] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2016-02-09 17:53:53.176  INFO 1 --- [pool-7-thread-1] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2016-02-09 17:53:53.177  INFO 1 --- [pool-7-thread-1] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2016-02-09 17:53:53.253  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - Re-registering apps/PRODUCTSERVICE
+2016-02-09 17:53:53.257  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083: registering service...
+2016-02-09 17:53:53.275  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - registration status: 204
+2016-02-09 17:53:53.291  INFO 1 --- [pool-7-thread-1] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2016-02-09 17:54:23.308  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - Re-registering apps/PRODUCTSERVICE
+2016-02-09 17:54:23.309  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083: registering service...
+2016-02-09 17:54:23.342  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - registration status: 204
+2016-02-09 17:54:53.353  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - Re-registering apps/PRODUCTSERVICE
+2016-02-09 17:54:53.353  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083: registering service...
+2016-02-09 17:54:53.382  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - registration status: 204
+2016-02-09 17:55:23.450  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - Re-registering apps/PRODUCTSERVICE
+2016-02-09 17:55:23.461  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083: registering service...
+2016-02-09 17:55:23.485  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - registration status: 204
+2016-02-09 17:55:53.522  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - Re-registering apps/PRODUCTSERVICE
+2016-02-09 17:55:53.525  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083: registering service...
+2016-02-09 17:55:53.556  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - registration status: 204
+2016-02-09 17:56:06.839  INFO 1 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-02-09 17:56:06.840  INFO 1 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-02-09 17:56:07.119  INFO 1 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 278 ms
+2016-02-09 17:56:23.587  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - Re-registering apps/PRODUCTSERVICE
+2016-02-09 17:56:23.589  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083: registering service...
+2016-02-09 17:56:23.604  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - registration status: 204
+2016-02-09 17:56:53.613  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - Re-registering apps/PRODUCTSERVICE
+2016-02-09 17:56:53.617  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083: registering service...
+2016-02-09 17:56:53.642  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - registration status: 204
+2016-02-09 17:57:23.678  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - Re-registering apps/PRODUCTSERVICE
+2016-02-09 17:57:23.681  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083: registering service...
+2016-02-09 17:57:23.692  INFO 1 --- [pool-6-thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - registration status: 204
+2016-02-09 17:57:50.037  INFO 1 --- [Thread-6] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@117f47c0: startup date [Tue Feb 09 17:51:04 UTC 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7026a94b
+2016-02-09 17:57:50.122  INFO 1 --- [Thread-6] c.n.e.EurekaDiscoveryClientConfiguration : Unregistering application productService with eureka with status DOWN
+2016-02-09 17:57:50.142  WARN 1 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [current=DOWN, previous=UP]
+2016-02-09 17:57:50.154  INFO 1 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083: registering service...
+2016-02-09 17:57:50.270  INFO 1 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - registration status: 204
+2016-02-09 17:57:50.313  WARN 1 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Action: Cancel  => returned status of 404 from http://eureka:8761/eureka/apps/PRODUCTSERVICE/ed9bd6e175a9:productService:8083
+2016-02-09 17:57:50.422  WARN 1 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Can't get a response from http://eureka:8761/eureka/apps/PRODUCTSERVICE/ed9bd6e175a9:productService:8083
+
+java.lang.RuntimeException: Bad status: 404
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:1569) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCallWithFollowRedirect(DiscoveryClient.java:1444) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:1427) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:1381) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:983) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:955) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient$$FastClassBySpringCGLIB$$a84c8cb4.invoke(<generated>) [eureka-client-1.3.4.jar!/:1.3.4]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) [spring-core-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.cloud.context.config.StandardBeanLifecycleDecorator$2.invoke(StandardBeanLifecycleDecorator.java:85) [spring-cloud-context-1.1.0.M4.jar!/:1.1.0.M4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient$$EnhancerBySpringCGLIB$$f698f655.shutdown(<generated>) [spring-cloud-netflix-core-1.1.0.M4.jar!/:1.1.0.M4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45-internal]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45-internal]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45-internal]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45-internal]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:302) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:133) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:121) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at com.sun.proxy.$Proxy99.shutdown(Unknown Source) [na:na]
+	at org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration.onApplicationEvent(EurekaDiscoveryClientConfiguration.java:192) [spring-cloud-netflix-core-1.1.0.M4.jar!/:1.1.0.M4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45-internal]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45-internal]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45-internal]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45-internal]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:227) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:144) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:106) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:163) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:136) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:381) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:335) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:967) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:901) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+
+2016-02-09 17:57:50.436 ERROR 1 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Can't contact any eureka nodes - possibly a security group issue?
+
+java.lang.RuntimeException: Bad status: 404
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:1569) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCallWithFollowRedirect(DiscoveryClient.java:1444) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:1427) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:1381) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:983) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:955) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient$$FastClassBySpringCGLIB$$a84c8cb4.invoke(<generated>) [eureka-client-1.3.4.jar!/:1.3.4]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) [spring-core-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.cloud.context.config.StandardBeanLifecycleDecorator$2.invoke(StandardBeanLifecycleDecorator.java:85) [spring-cloud-context-1.1.0.M4.jar!/:1.1.0.M4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient$$EnhancerBySpringCGLIB$$f698f655.shutdown(<generated>) [spring-cloud-netflix-core-1.1.0.M4.jar!/:1.1.0.M4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45-internal]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45-internal]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45-internal]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45-internal]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:302) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:133) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:121) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at com.sun.proxy.$Proxy99.shutdown(Unknown Source) [na:na]
+	at org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration.onApplicationEvent(EurekaDiscoveryClientConfiguration.java:192) [spring-cloud-netflix-core-1.1.0.M4.jar!/:1.1.0.M4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45-internal]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45-internal]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45-internal]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45-internal]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:227) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:144) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:106) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:163) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:136) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:381) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:335) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:967) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:901) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+
+2016-02-09 17:57:50.451 ERROR 1 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCTSERVICE/ed9bd6e175a9:productService:8083 - de-registration failedBad status: 404
+
+java.lang.RuntimeException: Bad status: 404
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:1569) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCallWithFollowRedirect(DiscoveryClient.java:1444) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:1427) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient.makeRemoteCall(DiscoveryClient.java:1381) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:983) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:955) [eureka-client-1.3.4.jar!/:1.3.4]
+	at com.netflix.discovery.DiscoveryClient$$FastClassBySpringCGLIB$$a84c8cb4.invoke(<generated>) [eureka-client-1.3.4.jar!/:1.3.4]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) [spring-core-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.cloud.context.config.StandardBeanLifecycleDecorator$2.invoke(StandardBeanLifecycleDecorator.java:85) [spring-cloud-context-1.1.0.M4.jar!/:1.1.0.M4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient$$EnhancerBySpringCGLIB$$f698f655.shutdown(<generated>) [spring-cloud-netflix-core-1.1.0.M4.jar!/:1.1.0.M4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45-internal]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45-internal]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45-internal]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45-internal]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:302) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:133) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:121) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208) [spring-aop-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at com.sun.proxy.$Proxy99.shutdown(Unknown Source) [na:na]
+	at org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration.onApplicationEvent(EurekaDiscoveryClientConfiguration.java:192) [spring-cloud-netflix-core-1.1.0.M4.jar!/:1.1.0.M4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45-internal]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45-internal]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45-internal]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45-internal]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:227) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:144) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:106) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:163) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:136) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:381) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:335) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:967) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:901) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+
+2016-02-09 17:57:50.539  INFO 1 --- [Thread-6] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2016-02-09 17:57:50.575  INFO 1 --- [Thread-6] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2016-02-09 17:57:50.583  INFO 1 --- [Thread-6] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2016-02-09 17:57:50.591  INFO 1 --- [Thread-6] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2016-02-09 17:57:50.798  INFO 1 --- [Thread-6] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2016-02-09 17:57:51.526  INFO 1 --- [Thread-6] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2016-02-09 17:57:51.537  INFO 1 --- [Thread-6] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2016-02-09 17:57:51.917  INFO 1 --- [Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-02-09 17:57:51.929  INFO 1 --- [Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2016-02-09 17:57:52.146  INFO 1 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'getTaskExecutor'
+2016-02-09 17:57:52.150  INFO 1 --- [Thread-6] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2016-02-09 17:57:52.153  INFO 1 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'brokerChannelExecutor'
+2016-02-09 17:57:52.155  INFO 1 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'getTaskExecutor'
+2016-02-09 17:57:52.156  INFO 1 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'clientInboundChannelExecutor'
